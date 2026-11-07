@@ -53,3 +53,9 @@ Supermini enquanto conecta o cabo USB.
 Se as opções do seu menu de permissão não forem sempre 1/2/3 (por
 exemplo, quando há mais de 3 opções), edite os valores `key` no array
 `buttons` em `src/main.cpp` e regrave o firmware.
+
+## Licença
+
+O código deste projeto está sob a licença [Apache 2.0](LICENSE) © Manuel Moraes.
+
+A pasta `lib/ESP32-BLE-Keyboard/` é uma cópia da biblioteca [ESP32-BLE-Keyboard](https://github.com/T-vK/ESP32-BLE-Keyboard), de T-vK, incluída para o projeto compilar sem dependências externas. Ela **não** está coberta pela licença Apache e pertence aos seus autores.
